@@ -1,0 +1,80 @@
+.composition {
+  position: relative;
+  
+  &__photo {
+    width: 25%;
+    height: 15rem;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    text-align: center;
+    // box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+    
+    position: absolute;
+    z-index: 10;
+    padding: 30px;
+
+align-items: center;
+justify-content:center;
+    transition: all 0.3s;
+    outline-offset: 2rem;
+    -moz-outline-radius: 10px;
+    &--p1 {
+      left: 0%;
+      top: -3rem;
+      color: $color-primary;
+      
+    }
+    &--p2 {
+      left: 30%;
+      top: -3rem;
+      color: $color-primary;
+    }
+    &--p3 {
+      left: 60%;
+      top: -3rem;
+      color: $color-primary;
+    }
+    &--p4 {
+      left: 0;
+      top: 13rem;
+      color: $color-primary;
+    }
+    &--p5 {
+      left: 30%;
+      top: 13rem;
+      color: $color-primary;
+    }
+    &--p6 {
+      left: 60%;
+      top: 13rem;
+      color: $color-primary;
+    }
+    &--p7 {
+      left: 30%;
+      top: 29rem;
+      color: $color-primary;
+      
+    }
+    &--p8 {
+      left: 60%;
+      top: 29rem;
+      
+    }
+    // &:hover {
+    //   // outline: 1.5rem solid $color-primary;
+    //   // transform: scale(1.05) translateY(-3rem);
+    //   border: 1px solid $color-primary;
+    //   // box-shadow: 0 2.5rem 4rem rgba($color-primary, .5);
+    //   z-index: 20;
+    //   color: $color-primary;
+    // }
+  }
+
+  // &:hover &__photo:not(:hover) {
+  //   transform: scale(.95)
+  // }
+  
+}
+.card {
+  border-radius: 10px;
+}
